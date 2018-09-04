@@ -42,8 +42,7 @@ function main_menu() {
 function update_ss() {
 	dialog --infobox "...Updating..." 3 20 ; sleep 2
 	clear
-	sleep 1 
-	./home/pi/code/skysource/update_skyscraper.sh
+	cd ~/code/skysource/ && ./update_skyscraper.sh
 
 }
 
